@@ -1,1 +1,96 @@
-estilos.css
+body{
+	font-family: 'Segoe UI', sans-serif;
+	margin: 0;
+	background: #2D4620;
+}
+header{
+	background: #2D4620;
+}
+
+
+.logo img{
+	width: 500px;
+}
+
+.logotipo h1{
+	margin: 0;
+	display: inline-block;
+}
+
+figure{
+	margin: 0 0 0 50px;
+	display: inline-block;
+}
+
+.menu{
+	width: 100%;
+	padding-bottom: 1px;
+}
+.menu ul{
+	padding: 0;
+	display: flex;
+}
+.menu ul li{
+	width: 25%;
+	display: inline-block;
+	background: #1B8181;
+	margin: 0;
+	font-size: 30px;
+	text-align: center;
+}
+.menu ul li:hover{
+	background: #0E5B5B;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+.borde-nav{
+	border-right: 1px solid white;
+}
+
+#novedades{
+	margin-bottom: 20px;
+}
+
+#novedades h2{
+	margin: 0;
+	background: #9D9DD9;
+	color: white;
+	padding: 10px 0 10px 40px;
+}
+
+.slider{
+	text-align: center;
+	background: #7272AC;
+	width: 100%;
+	height: 320px;
+}
+
+.slider img{
+	width: 98%;
+	height: 90%;
+	margin-top: 20px;
+	border: 1px solid #707070;
+}
+
+#catalogo h2{
+	margin: 0;
+	background: #50A3AD;
+	color: white;
+	padding: 10px 0 10px 40px;
+}
+#catalogo{
+	background: #1C5E76;
+}
+#catalogo div{
+	margin: 15px;
+	text-align: center;
+}
+#catalogo div img{
+	width: 240px;
+	height: 140px;
+	display: inline-block;
+	margin: 5px;
+}
+

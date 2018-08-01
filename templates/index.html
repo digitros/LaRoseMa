@@ -3,26 +3,50 @@
 <head>
 	<meta charset="UTF-8">
 	<title>La Rosa de Santa María</title>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
 </head>
 <body>
 	<header>
-		<figure>
-			<img src="imagenes/rosa_logo.pgn">
+		<figure class="logo">
+			<img src="../imagenes/logo_rosema.png">
 		</figure>
-		<nav></nav>
+		
+		<nav class="menu">
+			<ul>
+				<li class="borde-nav"><a href="#">Home</a></li>
+				<li class="borde-nav"><a href="#">Catálogo</a></li>
+				<li class="borde-nav"><a href="#">Contácto</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</nav>
 	</header>
 
-	<div>
-		
+	<div id="novedades">
+		<h2>Novedades</h2>
+		<div class="slider">
+			<img src="../imagenes/pastelp.jpg">
+		</div>
 	</div>
 
-	<div>
-		
+	<div id="catalogo">
+		<h2>Catálogo</h2>
+		<div>
+			<img src="../imagenes/p7.jpg" alt="">
+			<img src="../imagenes/pastel2.jpg" alt="">
+			<img src="../imagenes/pastel5.jpg" alt="">
+			<img src="../imagenes/pastel6.jpg" alt="">
+			<img src="../imagenes/pastel3.jpg" alt="">
+		</div>
 	</div>
 
 	<footer>
-		
+		<h3>Comentarios</h3>
+		<p>* * * * *</p>
+		<form>
+			<label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre" value="Nombre..." >
+            <textarea name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
+		</form>
 	</footer>
 </body>
 </html>
