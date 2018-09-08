@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?t2z6ka');
-  src:  url('fonts/icomoon.eot?t2z6ka#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?t2z6ka') format('truetype'),
-    url('fonts/icomoon.woff?t2z6ka') format('woff'),
-    url('fonts/icomoon.svg?t2z6ka#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?t2z6ka');
+  src:  url('../fonts/icomoon.eot?t2z6ka#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?t2z6ka') format('truetype'),
+    url('../fonts/icomoon.woff?t2z6ka') format('woff'),
+    url('../fonts/icomoon.svg?t2z6ka#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,6 +34,11 @@
   content: "\e9d9";
 }
 
+.icon-star-full{
+	color: #E4E4E4;
+	font-size: 2em;
+}
+
 
 body{
 	font-family: 'Segoe UI', sans-serif;
@@ -55,6 +60,7 @@ footer div{
 	background: #851A40;
 	margin: 0;
 	text-align: center;
+	padding: 5px 0 0 0;
 }
 
 footer div p{
