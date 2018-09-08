@@ -94,3 +94,36 @@ figure{
 	margin: 5px;
 }
 
+/*about*/
+.fondo{
+	background: #7272AC;
+	padding: 150px;
+	margin: 50px 10px 50px 10px;
+}
+
+.fondo h2{
+	font-size: 50px;
+	color: white;
+}
+
+.img-derecha{
+	float: right;
+	position: relative;
+	top: -300px;
+	right: -150px;
+}
+
+.contenedor{
+	padding-left: 20px;
+
+}
+
+.contenedor ul li{
+	font-size: 35px;
+	color: pink;
+}
+
+.marisol{
+	padding: 10px;
+	margin: 10px;
+}
