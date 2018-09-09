@@ -151,6 +151,10 @@ figure{
 	color: white;
 	padding: 10px 0 10px 40px;
 }
+#catalogo h2 a{
+	text-decoration: none;
+	color: white;
+}
 #catalogo{
 	background: #1C5E76;
 }
@@ -198,3 +202,78 @@ figure{
 	padding: 10px;
 	margin: 10px;
 }
+
+/*catalogo*/
+
+.catalogoD{
+	background: #1C5E76;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+.categorias{
+	
+}
+.categorias h2{
+	margin: 0;
+	width: 40%;
+	font-size: 2.5em;
+	margin: 10px 0 10px 0;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	padding: 6px 0;
+}
+.categorias.a h2{
+	background: #D390AB;
+	margin-left: 1%;
+}
+
+.categorias.b h2{
+	background: #B0A538;
+	margin-left: 15%;
+}
+
+.categorias.c h2{
+	background: #85BCC7;
+	margin-left: 30%;
+}
+
+.categorias.d h2{
+	background: #7272AC;
+	margin-left: 45%;
+}
+
+.imagenesCat{
+	margin-left:5%; 
+	width: 100%;
+	/*display: none;*/
+	transition: 2s;
+	/*opacity: 0;*/
+	transform-origin: top;
+}
+
+.imagenCat{
+	display: none;
+	margin: 5px;
+}
+
+/* transiciones*/
+.categorias.a:hover .imagenCat{
+	display: inline-block;
+	opacity: 100;
+}
+.categorias.b:hover .imagenCat{
+	display: inline-block;
+	opacity: 100;
+}
+.categorias.c:hover .imagenCat{
+	display: inline-block;
+	opacity: 100;
+}
+.categorias.d:hover .imagenCat{
+	display: inline-block;
+	opacity: 100;
+}
+
