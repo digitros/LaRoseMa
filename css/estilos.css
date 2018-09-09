@@ -172,8 +172,8 @@ figure{
 /*about*/
 .fondo{
 	background: #7272AC;
-	padding: 150px;
-	margin: 50px 10px 50px 10px;
+	padding: 50px 50px 100px 120px;
+	margin: 3px 0 10px 0;
 }
 
 .fondo h2{
@@ -184,11 +184,11 @@ figure{
 .img-derecha{
 	float: right;
 	position: relative;
-	top: -300px;
-	right: -150px;
+	top: -215px;
+	right: -90px;
 }
 
-.contenedor{
+.contenedor .texto{
 	padding-left: 20px;
 
 }
@@ -198,7 +198,7 @@ figure{
 	color: pink;
 }
 
-.marisol{
+.marisol .rosa{
 	padding: 10px;
 	margin: 10px;
 }
@@ -275,5 +275,46 @@ figure{
 .categorias.d:hover .imagenCat{
 	display: inline-block;
 	opacity: 100;
+}
+/*contacto*/
+.fondo-c{
+	background: pink;
+	padding: 70px;
+	margin: 3px 0 10px 0;
+}
+
+.fondo-c h2{
+	font-size: 45px;
+	color: palevioletred;
+	font-style: italic;
+	margin-top: 0;
+}
+
+.img-rosa{
+	float: right;
+	position: relative;
+	top: -150px;
+	right: -90px;
+}
+
+.texto{
+	padding-left: 20px;
+
+}
+
+.texto-a{
+	font-weight: bold;
+	color: white;
+}
+
+.texto-b{
+	color: #851A40;
+}
+
+.texto ul li{
+	font-size: 35px;
+	text-align: center;
+	list-style-type: none;
+
 }
 
